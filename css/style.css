@@ -288,7 +288,6 @@ button {
 .wsus__topbar_countdown .simply-section span {
     padding-right: 12px;
     position: relative;
-    /* display: block; */
     text-align: center;
 }
 
@@ -316,9 +315,6 @@ button {
 .simply-seconds-section span::after {
     content: "s" !important;
 }
-
-
-
 
 .wsus__topbar_countdown .simply-amount {
     font-size: 14px;
@@ -538,7 +534,6 @@ button {
     text-transform: capitalize;
     padding: 13px 20px;
     border: 1px solid var(--colorBlue);
-    /* filter: drop-shadow(0px 15px 30px rgba(0, 0, 0, 0.1)); */
     border-radius: 5px;
     color: var(--colorBlack);
     width: auto;
@@ -621,6 +616,37 @@ button {
     z-index: 999;
     box-shadow: var(--boxShadow);
 }
+
+/* mobile menu icon start */
+.main_menu .navbar-toggler .close_icon {
+    display: none;
+}
+
+.navbar-toggler.show .menu_icon {
+    display: none;
+}
+
+.navbar-toggler.show .close_icon {
+    display: block;
+}
+
+.main_menu .navbar-toggler {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding: 0;
+    background: var(--colorBlue);
+    color: var(--colorWhite);
+    border: none;
+    border-radius: 3px;
+}
+
+.navbar-toggler.show {
+    background: red;
+}
+
+/* mobile menu icon end */
 
 /* menu end */
 
@@ -760,7 +786,7 @@ button {
     position: absolute;
     top: -175px;
     box-shadow: var(--boxShadow);
-    width: 100%;
+    width: 98.2%;
 }
 
 .wsus__categories_item {
@@ -994,6 +1020,11 @@ button {
     border-radius: 3px;
     padding: 4px 12px;
 }
+
+.gallery_filter {
+    justify-content: center;
+}
+
 
 .gallery_filter button {
     font-size: 16px;
@@ -1315,6 +1346,8 @@ button {
     overflow: hidden;
     margin-right: 10px;
 }
+
+.wsus__testimonial_footer .text {}
 
 .wsus__testimonial_footer .text h4 {
     font-weight: 700;

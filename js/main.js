@@ -30,15 +30,15 @@ $(function () {
     $('.select_js').niceSelect();
 
 
-    //=========main.js=========   
+    //=========counter up js=========   
     $('.counter').countUp();
 
 
-    //=======TESTI SLIDER======
+    //=======CATEGORY SLIDER======
     $('.category_slider').slick({
         slidesToShow: 5,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 4000,
         dots: false,
         arrows: true,
@@ -55,24 +55,26 @@ $(function () {
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 4,
                 }
             },
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 3,
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 1,
+                    arrows: false,
+                    slidesToShow: 2,
                 }
             },
             {
                 breakpoint: 576,
                 settings: {
+                    arrows: false,
                     slidesToShow: 1,
                 }
             }
@@ -100,7 +102,7 @@ $(function () {
 
 
 
-    //=======TESTI SLIDER======
+    //=======TESTIMONIAL SLIDER======
     $('.testi_slider').slick({
         slidesToShow: 2,
         slidesToScroll: 1,
@@ -113,7 +115,7 @@ $(function () {
             {
                 breakpoint: 1400,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                 }
             },
             {
@@ -125,7 +127,7 @@ $(function () {
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                 }
             },
             {
@@ -253,6 +255,7 @@ $(function () {
     });
 
 
+    //=======TRENDY ITEMS SLIDER======
     $('.trendy_slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -306,6 +309,13 @@ $(function () {
             }
         ]
     });
+
+
+    //======MOBILE MENU BUTTON=======
+    $(".navbar-toggler").on("click", function () {
+        $(".navbar-toggler").toggleClass("show");
+    });
+
 
 
 });
