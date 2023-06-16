@@ -1007,7 +1007,6 @@ button {
     opacity: 1;
 }
 
-
 .wsus__gallery_item_text .price {
     position: absolute;
     top: -18px;
@@ -1024,7 +1023,6 @@ button {
 .gallery_filter {
     justify-content: center;
 }
-
 
 .gallery_filter button {
     font-size: 16px;
@@ -3983,6 +3981,7 @@ HOME PAGE END
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 30px;
+    margin-top: 25px;
 }
 
 .wsus__blog_details_bloger .img {
@@ -5218,21 +5217,12 @@ HOME PAGE END
 }
 
 .wsus__contact_map {
-    /* background: #f8eff6; */
-    /* border-radius: 4px; */
-    /* padding: 28px; */
-    /* margin-top: 25px; */
-}
-
-.wsus__contact_map .map {
     height: 670px;
     background: var(--colorWhite);
-    /* padding: 10px; */
     border-radius: 4px;
-    /* margin-top: 20px; */
 }
 
-.wsus__contact_map .map iframe {
+.wsus__contact_map iframe {
     width: 100%;
     height: 100%;
 }
@@ -5242,6 +5232,7 @@ HOME PAGE END
     overflow: hidden;
     padding: 40px;
     box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.08);
+    border: none;
 }
 
 .wsus__contact_form h3 {
