@@ -233,7 +233,77 @@
         PRODUCT DETAILS END
     ===============================*/
 
+    /*===============================
+        PROFILE COLLECTION START
+    ===============================*/
+    .wsus__profile {
+        padding-top: 100px !important;
+    }
 
+    .wsus__profile_header_text .text h2 {
+        /* font-size: 30px; */
+    }
+
+    .wsus__profile_header_text .text .join span,
+    .wsus__profile_header_text .text .join {
+        /* font-size: 16px; */
+    }
+
+    .wsus__profile_header_text .header_button {
+        /* bottom: 40px; */
+        /* display: block !important; */
+    }
+
+    .wsus__profile_header_text .header_button li {
+        margin-left: 15px;
+        padding: 10px 25px;
+    }
+
+    .wsus__profile_header_text .header_button li h4 {
+        font-size: 20px;
+    }
+
+    .wsus__profile_header_text .header_button li p {
+        font-size: 14px;
+    }
+
+    .header_menu li a {
+        font-size: 16px;
+        padding-bottom: 0;
+    }
+
+    .header_menu {
+        padding-bottom: 25px;
+    }
+
+    .wsus__profile_sidebar {
+        /* padding-left: 0; */
+        /* margin-top: 25px; */
+    }
+
+    .wsus__profile .wsus__gallery_item_img {
+        height: 210px;
+    }
+
+    .profile_sedebar_contact {
+        /* padding: 20px; */
+    }
+
+    .wsus__sidebar_buy_info,
+    .wsus__sidebar_pro_info,
+    .wsus__sidebar_author_info {
+        /* padding: 20px; */
+    }
+
+    .profile_sedebar_social ul li a {
+        width: 35px;
+        height: 35px;
+        /* margin-right: 10px; */
+    }
+
+    /*===============================
+        PROFILE COLLECTION END
+    ===============================*/
 
 
 }
@@ -533,6 +603,124 @@
     /*===============================
         PRODUCT DETAILS END
     ===============================*/
+
+
+    /*===============================
+        PRODUCT START
+    ===============================*/
+    .wsus__product_sidebar_area {
+        margin-left: 0 !important;
+    }
+
+    .wsus__product_sidebar_offer {
+        margin-left: 0;
+        margin-top: 25px;
+    }
+
+    .wsus__product_page .wsus__gallery_item_img {
+        height: 210px;
+    }
+
+    /*===============================
+        PRODUCT END
+    ===============================*/
+
+
+    /*===============================
+        PROFILE COLLECTION START
+    ===============================*/
+    .wsus__profile {
+        padding-top: 100px !important;
+    }
+
+    .wsus__profile_header_text .text h2 {
+        font-size: 30px;
+    }
+
+    .wsus__profile_header_text .text .join span,
+    .wsus__profile_header_text .text .join {
+        font-size: 16px;
+    }
+
+    .wsus__profile_header_text .header_button {
+        bottom: 40px;
+        display: block !important;
+    }
+
+    .wsus__profile_header_text .header_button li {
+        margin-left: 0;
+        margin-top: 10px;
+        padding: 10px 25px;
+    }
+
+    .wsus__profile_header_text .header_button li h4 {
+        font-size: 20px;
+    }
+
+    .wsus__profile_header_text .header_button li p {
+        font-size: 14px;
+    }
+
+    .header_menu li a {
+        font-size: 16px;
+        padding-bottom: 0;
+    }
+
+    .header_menu {
+        padding-bottom: 25px;
+    }
+
+    .wsus__profile_sidebar {
+        padding-left: 0;
+    }
+
+    .wsus__profile .wsus__gallery_item_img {
+        height: 210px;
+    }
+
+    .profile_sedebar_contact {
+        padding: 20px;
+    }
+
+    .wsus__sidebar_buy_info,
+    .wsus__sidebar_pro_info,
+    .wsus__sidebar_author_info {
+        padding: 20px;
+    }
+
+    .profile_sedebar_social ul li a {
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }
+
+    .wsus__download_item_left .text {
+        max-width: 77%;
+    }
+
+    .wsus__download_item_right {
+        margin-top: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    /*===============================
+        PROFILE COLLECTION END
+    ===============================*/
+
+
+
+
+
 
 
 
@@ -1028,6 +1216,80 @@
     ===============================*/
 
 
+    /*===============================
+        PRODUCT START
+    ===============================*/
+    .wsus__product_sidebar_area {
+        margin-left: 0 !important;
+    }
+
+    .wsus__product_sidebar_offer {
+        margin-left: 0;
+        margin-top: 25px;
+    }
+
+    /*===============================
+        PRODUCT END
+    ===============================*/
+
+
+    /*===============================
+        PROFILE COLLECTION START
+    ===============================*/
+    .wsus__profile {
+        padding-top: 100px !important;
+    }
+
+    .wsus__profile_header_text .text {
+        max-width: 100%;
+        margin-top: 30px;
+    }
+
+    .wsus__profile_header_text .header_button {
+        position: static;
+        margin-top: 25px;
+    }
+
+    .wsus__profile_header_text .header_button li {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+
+    .header_menu li {
+        width: 33.33%;
+    }
+
+    .header_menu li a {
+        font-size: 16px;
+        padding-bottom: 0;
+    }
+
+    .header_menu {
+        padding-bottom: 25px;
+    }
+
+    .wsus__profile_sidebar {
+        padding-left: 0;
+        margin-top: 25px;
+    }
+
+    .wsus__profile_download_empty .img {
+        width: auto;
+        height: auto;
+    }
+
+
+
+
+
+
+
+
+
+
+    /*===============================
+        PROFILE COLLECTION END
+    ===============================*/
 
 
 
@@ -1599,9 +1861,127 @@
         margin-bottom: 25px;
     }
 
+    .comment_footer .text h3 span {
+        display: block;
+        width: 100%;
+        margin-top: 5px;
+    }
+
     /*===============================
         PRODUCT DETAILS END
     ===============================*/
+
+
+    /*===============================
+        PRODUCT START
+    ===============================*/
+    .wsus__product_page_search form {
+        margin-bottom: 15px;
+    }
+
+    .wsus__product_sidebar_area {
+        margin-left: 0 !important;
+    }
+
+    .wsus__product_sidebar_offer {
+        margin-left: 0;
+        margin-top: 25px;
+    }
+
+    /*===============================
+        PRODUCT END
+    ===============================*/
+
+
+    /*===============================
+        PROFILE START
+    ===============================*/
+    .wsus__profile_header_text .text {
+        max-width: 100%;
+        margin-top: 30px;
+    }
+
+    .wsus__profile_header_text .text h2 {
+        font-size: 30px;
+    }
+
+    .wsus__profile_header_text .header_button {
+        position: static;
+        margin-top: 25px;
+    }
+
+    .wsus__profile_header_text .text .join span,
+    .wsus__profile_header_text .text .join {
+        font-size: 16px;
+    }
+
+    .wsus__profile_header_text .header_button li {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+
+    .wsus__profile_header {
+        padding: 80px 0;
+    }
+
+    .header_menu li {
+        width: 50%;
+    }
+
+    .header_menu li a {
+        font-size: 16px;
+        padding-bottom: 0;
+    }
+
+    .header_menu {
+        padding-bottom: 25px;
+    }
+
+    .wsus__profile_sidebar {
+        padding-left: 0;
+        margin-top: 25px;
+    }
+
+    .wsus__profile_download_empty .img {
+        width: auto;
+        height: auto;
+    }
+
+    .wsus__download_item_left .text {
+        max-width: 100%;
+        margin: 20px 0px;
+    }
+
+    .wsus__profile_download {
+        padding: 20px;
+    }
+
+    .wsus__download_item_left .text {
+        max-width: 100%;
+        margin: 20px 0px;
+    }
+
+    .wsus__profile_download {
+        padding: 20px;
+    }
+
+    .wsus__profile_setting .social_link li {
+        width: 48%;
+    }
+
+    .wsus__profile_setting h3 {
+        font-size: 25px;
+    }
+
+
+
+    /*===============================
+        PROFILE END
+    ===============================*/
+
+
+
+
 
 
 
@@ -2252,6 +2632,11 @@
         font-size: 25px;
     }
 
+    .wsus__faq_text h3,
+    .wsus__faq_form h3 {
+        font-size: 20px;
+    }
+
     /*===============================
         PRODUCT DETAILS START
     ===============================*/
@@ -2288,9 +2673,147 @@
         padding: 20px;
     }
 
+    .comment_footer .text h3 span {
+        display: block;
+        width: 100%;
+        margin-top: 5px;
+    }
+
     /*===============================
         PRODUCT DETAILS END
     ===============================*/
+
+
+    /*===============================
+        PRODUCT START
+    ===============================*/
+    .wsus__product_page_search form button {
+        padding: 18px 30px;
+        font-size: 14px;
+    }
+
+    .wsus__product_page_search form {
+        margin-bottom: 15px;
+    }
+
+    .wsus__product_sidebar_area {
+        margin-left: 0 !important;
+    }
+
+    .wsus__product_sidebar_offer {
+        margin-left: 0;
+        margin-top: 25px;
+    }
+
+    /*===============================
+        PRODUCT END
+    ===============================*/
+
+
+    /*===============================
+        PROFILE START
+    ===============================*/
+    .wsus__profile_header_text .text {
+        max-width: 100%;
+        margin-top: 30px;
+    }
+
+    .wsus__profile_header_text .text h2 {
+        font-size: 25px;
+    }
+
+    .wsus__profile_header_text .header_button {
+        position: static;
+        margin-top: 25px;
+    }
+
+    .wsus__profile_header_text .text .join span,
+    .wsus__profile_header_text .text .join {
+        font-size: 16px;
+    }
+
+    .wsus__profile_header_text .header_button li {
+        padding: 15px 25px;
+        margin-left: 0;
+        margin-right: 10px;
+    }
+
+    .wsus__profile_header {
+        padding: 80px 0;
+    }
+
+    .header_menu li {
+        width: 100%;
+    }
+
+    .header_menu li a {
+        font-size: 16px;
+        padding-bottom: 0;
+    }
+
+    .header_menu {
+        padding-bottom: 25px;
+    }
+
+    .wsus__profile_sidebar {
+        padding-left: 0;
+        margin-top: 25px;
+    }
+
+    .wsus__sidebar_pro_info .follow li h3 {
+        font-size: 25px;
+    }
+
+    .wsus__sidebar_pro_info .follow li p {
+        font-size: 16px;
+    }
+
+    .profile_sedebar_contact {
+        padding: 20px;
+    }
+
+    .profile_sedebar_social ul li a {
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }
+
+    .wsus__profile_download_empty .img {
+        width: auto;
+        height: auto;
+    }
+
+    .wsus__download_item_left .text {
+        max-width: 100%;
+        margin: 20px 0px;
+    }
+
+    .wsus__profile_download {
+        padding: 20px;
+    }
+
+    .wsus__profile_setting .social_link {
+        display: block !important;
+    }
+
+    .wsus__profile_setting .social_link li {
+        width: auto;
+    }
+
+    .wsus__profile_setting h3 {
+        font-size: 20px;
+    }
+
+
+
+
+
+
+
+    /*===============================
+        PROFILE END
+    ===============================*/
+
 
 
 
