@@ -234,7 +234,6 @@ button {
     COMMON CSS START
 ===========================*/
 
-
 /*==========================
     HOME PAGE START
 ===========================*/
@@ -408,7 +407,6 @@ button {
 }
 
 /* topbar end */
-
 
 /* menu start */
 .main_menu {
@@ -650,7 +648,6 @@ button {
 
 /* menu end */
 
-
 /* banner start */
 .wsus__banner {
     background-position: center !important;
@@ -769,7 +766,6 @@ button {
 
 /* banner end */
 
-
 /* categories start */
 .wsus__categories {
     position: relative;
@@ -847,7 +843,6 @@ button {
 }
 
 /* categories end */
-
 
 /* gallery stat */
 .wsus__galley {
@@ -945,8 +940,6 @@ button {
     font-size: 14px;
     text-transform: capitalize;
     color: var(--colorPrimary);
-    /* margin-bottom: 5px; */
-    /* margin-top: 3px; */
     font-weight: 400;
 }
 
@@ -1050,7 +1043,6 @@ button {
 }
 
 /* gallery end */
-
 
 /* counter start */
 .wsus__counter {
@@ -1160,7 +1152,6 @@ button {
 
 /* recent product end */
 
-
 /* gallery 2 start */
 .wsus__galley_2 {
     background-position: center !important;
@@ -1217,7 +1208,6 @@ button {
 }
 
 /* gallery 2 end */
-
 
 /* why choose start */
 .wsus__why_choose {
@@ -1292,7 +1282,6 @@ button {
 
 /* why choose end */
 
-
 /* testimonial start */
 .wsus__testimonial_item {
     background: var(--colorWhite);
@@ -1345,8 +1334,6 @@ button {
     margin-right: 10px;
 }
 
-.wsus__testimonial_footer .text {}
-
 .wsus__testimonial_footer .text h4 {
     font-weight: 700;
     font-size: 20px;
@@ -1358,7 +1345,6 @@ button {
 }
 
 /* testimonial end */
-
 
 /* download start */
 .wsus__download {
@@ -1399,7 +1385,6 @@ button {
 }
 
 /* download end */
-
 
 /* blog start */
 .wsus__blog_1 {
@@ -1497,7 +1482,6 @@ button {
 
 /* blog end */
 
-
 /* subscribe start */
 
 .wsus__subscribe {
@@ -1541,7 +1525,6 @@ button {
 
 /* subscribe end */
 
-
 /* footer start */
 footer {
     background-position: center !important;
@@ -1576,7 +1559,6 @@ footer {
     text-transform: capitalize;
     margin-top: 15px;
     display: block;
-    /* text-underline-offset: 5px; */
     transition: 0.2s ease;
     -webkit-transition: 0.2s ease;
     -moz-transition: 0.2s ease;
@@ -1585,7 +1567,6 @@ footer {
 }
 
 .wsus__footer_content ul li a:hover {
-    /* text-decoration: underline; */
     color: var(--colorPrimary);
 }
 
@@ -1686,7 +1667,6 @@ footer {
 }
 
 /* footer end */
-
 
 /* scroll button start */
 .wsus__scroll_btn {
@@ -1794,7 +1774,6 @@ HOME PAGE END
 
 /* breadcrumb end */
 
-
 /* about us start */
 .wsus__about_us_text h5 {
     font-weight: 400;
@@ -1854,7 +1833,6 @@ HOME PAGE END
 }
 
 /* about us */
-
 
 /* team start */
 .wsus__team {
@@ -1969,7 +1947,6 @@ HOME PAGE END
     opacity: 1;
 }
 
-
 .wsus__purchase {
     background-position: center !important;
     background-repeat: no-repeat !important;
@@ -2027,7 +2004,6 @@ HOME PAGE END
 
 /* team end */
 
-
 /* counter start */
 .wsus__about_counter .wsus__single_counter h2 {
     color: var(--colorBlack);
@@ -2038,7 +2014,6 @@ HOME PAGE END
 }
 
 /* counter end */
-
 
 /* why choose 2 start */
 .wsus__why_choose_2 {
@@ -2312,16 +2287,12 @@ HOME PAGE END
 }
 
 .wsus__product_details_text {
-    /* background: #EFF3F8; */
-    /* border-radius: 5px; */
-    /* padding: 30px; */
     margin-top: 40px;
     background: #EFF3F8;
     border-radius: 5px;
 }
 
 .wsus__product_details_text .nav {
-    /* margin-top: 37px; */
     background: #EFF3F8;
     border-radius: 5px 5px 0px 0px;
     padding: 30px;
@@ -2340,7 +2311,6 @@ HOME PAGE END
     text-transform: capitalize;
     transition: all linear .2s;
     border-bottom: 2px solid transparent;
-    /* border-radius: 0; */
     margin-right: 20px;
     padding-bottom: 5px;
     -webkit-transition: all linear .2s;
@@ -2448,7 +2418,6 @@ HOME PAGE END
     padding-left: 30px;
     margin-left: 0;
     margin-right: 30px;
-    /* font-weight: 400; */
 }
 
 .wsus__pro_det_file ul li::after,
@@ -2827,20 +2796,6 @@ HOME PAGE END
     margin-right: 5px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .wsus__sidebar_buy_info,
 .wsus__sidebar_pro_info,
 .wsus__sidebar_author_info {
@@ -2899,17 +2854,6 @@ HOME PAGE END
 .wsus__sidebar_buy_info .info li:hover {
     background: #183ebd17;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .wsus__sidebar_pro_info ul li {
     display: flex;
@@ -2993,12 +2937,6 @@ HOME PAGE END
     font-size: 20px;
 }
 
-
-
-
-
-
-
 .wsus__sidebar_author_text {
     margin-bottom: 35px;
 }
@@ -3029,10 +2967,8 @@ HOME PAGE END
 }
 
 .wsus__sidebar_author_info button {
-    /* padding: 15px 20px; */
     width: 100%;
 }
-
 
 .wsus__sidebar_author_info ul {
     background: #EFF3F8;
@@ -3331,9 +3267,6 @@ HOME PAGE END
 }
 
 .wsus__checkout_text .nav {
-    /* border: 1px solid #d9d9d9; */
-    /* border-radius: 0; */
-    /* margin: 30px 30px 0px 30px; */
     padding: 10px 30px 30px 30px;
     justify-content: space-between;
 }
@@ -3418,10 +3351,7 @@ HOME PAGE END
 }
 
 .wsus__checkout_footer button {
-    /* background: var(--colorYellow); */
     width: 235px;
-    /* text-align: center; */
-    /* color: var(--colorWhite); */
 }
 
 .wsus__checkout_footer .terms_condition {
@@ -3702,7 +3632,6 @@ HOME PAGE END
     -ms-transform: scale(1.03);
     -o-transform: scale(1.03);
 }
-
 
 .wsus__sidebar_item {
     box-shadow: 0px 4px 84px rgb(0 0 0 / 6%);
@@ -4198,8 +4127,6 @@ HOME PAGE END
 }
 
 .wsus__faq_text .accordion-item {
-    /* background: red; */
-    /* box-shadow: 0px 4px 84px rgb(0 0 0 / 6%); */
     border-radius: 4px;
     margin-top: 20px;
     border: none;
@@ -4386,25 +4313,6 @@ HOME PAGE END
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .header_menu {
     background: var(--colorWhite);
     border: 1px solid #E9E9E9;
@@ -4459,12 +4367,10 @@ HOME PAGE END
 
 .wsus__profile_overview .red_color {
     color: var(--colorBlue);
-    /* font-weight: 500; */
 }
 
 .wsus__profile_overview .blue_color {
     color: var(--colorBlue);
-    /* font-weight: 600; */
 }
 
 .wsus__profile_overview ul,
@@ -4522,7 +4428,6 @@ HOME PAGE END
 }
 
 .profile_sedebar_contact {
-    /* border: 1px solid #FACADF; */
     box-shadow: 0px 4px 84px rgba(0, 0, 0, 0.06);
     border-radius: 4px;
     padding: 30px;
@@ -4534,11 +4439,6 @@ HOME PAGE END
     margin-bottom: 8px;
     display: block;
 }
-
-/* .profile_sedebar_contact form input,
-.profile_sedebar_contact form textarea {
-    margin-bottom: 25px;
-} */
 
 .profile_sedebar_contact form button {
     width: 100%;
@@ -4580,7 +4480,6 @@ HOME PAGE END
     align-items: center;
     margin-top: 20px;
     padding: 15px;
-    /* border-bottom: 1px solid #dcdcdc; */
     background: var(--colorWhite);
 }
 
@@ -5347,8 +5246,6 @@ HOME PAGE END
     padding: 115px 0px 130px 0px;
 }
 
-.wsus__banner_text_2 {}
-
 .wsus__banner_text_2 h1 {
     font-weight: 700;
     font-size: 65px;
@@ -5382,8 +5279,6 @@ HOME PAGE END
     padding: 7.5px 30px;
     border-radius: 4px;
 }
-
-.wsus__banner_counter_2 {}
 
 .wsus__banner_counter_2 li {
     font-weight: 500;
@@ -5818,7 +5713,7 @@ HOME PAGE END
 }
 
 .wsus__banner_3 .wsus__categories_item_2 {
-    margin: 0 auto;
+    margin: 0 12px;
     margin-top: 25px;
 }
 
@@ -5848,7 +5743,7 @@ HOME PAGE END
 }
 
 .wsus__why_choose_3 {
-    background: VAR(--colorWhite);
+    background: var(--colorWhite);
 }
 
 .wsus__megapack {
@@ -5973,17 +5868,4 @@ HOME PAGE END
 
 /*==========================
     HOME PAGE 3 END
-===========================*/
-
-
-
-
-
-
-
-/*==========================
-    START
-===========================*/
-/*==========================
-    END
 ===========================*/

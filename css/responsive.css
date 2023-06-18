@@ -16,6 +16,10 @@
         margin-left: 0;
     }
 
+    .wsus__banner_3 .wsus__banner_img {
+        width: 515px;
+        height: 390px;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 1399.99px) {
@@ -97,7 +101,6 @@
         HOME PAGE END
     ===============================*/
 
-
     .wsus_error_img {
         height: 435px;
     }
@@ -135,25 +138,8 @@
     /*===============================
         BLOG DETAILS  END
     ===============================*/
-    .wsus__blog_details_img {
-        /* height: 350px; */
-    }
-
-    .wsus__blog_details_text h1,
-    .wsus__blog_details_text h2 {
-        /* font-size: 32px; */
-    }
-
     .wsus__blog_details_bloger .text {
         width: 83%;
-    }
-
-    .wsus__blog_details_slider {
-        /* height: 215px; */
-    }
-
-    .wsus__single_comment.reply {
-        /* margin-left: 40px; */
     }
 
     .reply .comment_footer .text {
@@ -184,7 +170,6 @@
         BLOG DETAILS  END
     ===============================*/
 
-
     .wsus__checkout_text .nav .nav-item .nav-link {
         height: 65px;
     }
@@ -192,7 +177,6 @@
     .wsus__checkout_sidebar ul li .text {
         width: 63%;
     }
-
 
     /*===============================
         EMPTY CART END
@@ -208,7 +192,6 @@
     .wsus__payment_done_img {
         height: 590px;
     }
-
 
     /*===============================
         PRODUCT DETAILS START
@@ -240,20 +223,6 @@
         padding-top: 100px !important;
     }
 
-    .wsus__profile_header_text .text h2 {
-        /* font-size: 30px; */
-    }
-
-    .wsus__profile_header_text .text .join span,
-    .wsus__profile_header_text .text .join {
-        /* font-size: 16px; */
-    }
-
-    .wsus__profile_header_text .header_button {
-        /* bottom: 40px; */
-        /* display: block !important; */
-    }
-
     .wsus__profile_header_text .header_button li {
         margin-left: 15px;
         padding: 10px 25px;
@@ -276,24 +245,10 @@
         padding-bottom: 25px;
     }
 
-    .wsus__profile_sidebar {
-        /* padding-left: 0; */
-        /* margin-top: 25px; */
-    }
-
     .wsus__profile .wsus__gallery_item_img {
         height: 210px;
     }
 
-    .profile_sedebar_contact {
-        /* padding: 20px; */
-    }
-
-    .wsus__sidebar_buy_info,
-    .wsus__sidebar_pro_info,
-    .wsus__sidebar_author_info {
-        /* padding: 20px; */
-    }
 
     .profile_sedebar_social ul li a {
         width: 35px;
@@ -306,9 +261,61 @@
     ===============================*/
 
 
+    /*===============================
+        HOME PAHE 2 START
+    ===============================*/
+    .wsus__trending_theme_item_img {
+        width: 110px;
+        height: 140px;
+    }
+
+    .wsus__trending_theme_item_text {
+        width: 59%;
+    }
+
+    .wsus__trending_theme_single_text .title {
+        font-size: 25px;
+    }
+
+    .wsus__download_2_img {
+        height: 425px;
+    }
+
+    /*===============================
+        HOME PAHE 2 END
+    ===============================*/
+
+
+    /*===============================
+        HOME PAHE 3 START
+    ===============================*/
+    .wsus__banner_text_3 form {
+        width: 90%;
+    }
+
+    .wsus__banner_3 .wsus__banner_img {
+        width: 430px;
+        height: 325px;
+    }
+
+    .home_3 .wsus__new_product_area .wsus__recent_product_item {
+        width: 100px;
+        height: 100px;
+        padding: 20px;
+    }
+
+    .wsus__megapack_card {
+        padding: 35px 35px 30px 35px;
+    }
+
+    .wsus__subscribe_3_bg .wsus__subscribe_text form {
+        width: 100%;
+    }
+
+    /*===============================
+        HOME PAHE 3 END
+    ===============================*/
 }
-
-
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
 
@@ -407,7 +414,6 @@
     /*===============================
         HOME PAGE END
     ===============================*/
-
 
 
     /*===============================
@@ -702,30 +708,83 @@
         margin-top: 20px;
     }
 
-
-
-
-
-
-
-
-
-
-
-
     /*===============================
         PROFILE COLLECTION END
     ===============================*/
 
 
+    /*===============================
+        HOME PAHE 2 START
+    ===============================*/
+    .wsus__banner_text_2 h1 {
+        font-size: 55px;
+    }
+
+    .wsus__section_heading h2 {
+        font-size: 38px;
+    }
+
+    .wsus__trending_theme_single_text .title {
+        font-size: 30px;
+    }
+
+    .wsus__download_2_img {
+        width: 355px;
+        height: 340px;
+    }
+
+    .wsus__download_2_text p {
+        margin-bottom: 40px;
+    }
+
+    .wsus__go_offer p span {
+        font-size: 35px;
+    }
+
+    /*===============================
+        HOME PAHE 2 END
+    ===============================*/
 
 
+    /*===============================
+        HOME PAHE 3 START
+    ===============================*/
+    .wsus__banner_text_3 h1 {
+        font-size: 48px;
+    }
 
+    .wsus__banner_text_3 form {
+        width: 90%;
+    }
 
+    .wsus__banner_3 .wsus__banner_img {
+        width: 360px;
+        height: 272px;
+    }
 
+    .home_3 .wsus__new_product_area .wsus__recent_product_item {
+        width: 80px;
+        height: 80px;
+        padding: 20px;
+    }
 
+    .wsus__megapack_card {
+        padding: 35px 35px 30px 35px;
+    }
+
+    .wsus__megapack_text p,
+    .wsus__megapack_text p span {
+        font-size: 32px;
+    }
+
+    .wsus__subscribe_3_bg .wsus__subscribe_text form {
+        width: 75%;
+    }
+
+    /*===============================
+        HOME PAHE 3 END
+    ===============================*/
 }
-
 
 
 @media (min-width: 768px) and (max-width: 991.99px) {
@@ -800,7 +859,7 @@
     }
 
     .wsus__banner_img {
-        width: 450px;
+        width: 450px !important;
         height: auto;
         margin-top: 35px;
     }
@@ -874,7 +933,7 @@
     }
 
     .wsus__download_text h2 {
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .wsus__testimonial_footer .text h4 {
@@ -1012,7 +1071,6 @@
     ===============================*/
 
 
-
     /*===============================
         BECOME AN AUTHOR START
     ===============================*/
@@ -1040,31 +1098,14 @@
         height: 400px;
     }
 
-    .wsus__blog_details_text h1,
-    .wsus__blog_details_text h2,
-    .wsus__blog_details_text h3,
-    .wsus__blog_details_text h4,
-    .wsus__blog_details_text h5,
-    .wsus__blog_details_text h6 {
-        /* font-size: 30px !important; */
-    }
-
     .wsus__blog_details_bloger .text {
         width: 81%;
     }
 
     .wsus__blog_details_bloger {
-        /* padding: 20px; */
         margin-top: 30px;
     }
 
-    .wsus__blog_details_bloger .text h4 {
-        /* font-size: 15px !important; */
-    }
-
-    .wsus__blog_details_bloger .text h5 {
-        /* font-size: 16px !important; */
-    }
 
     .wsus__blog_details_slider {
         height: 300px;
@@ -1278,24 +1319,172 @@
         height: auto;
     }
 
-
-
-
-
-
-
-
-
-
     /*===============================
         PROFILE COLLECTION END
     ===============================*/
 
+    .wsus__footer_copyright p {
+        margin-bottom: 15px;
+    }
+
+    /*===============================
+        HOME PAHE 2 START
+    ===============================*/
+    .wsus__banner_2 {
+        margin-top: 100px;
+        padding: 65px 0px 80px 0px;
+    }
+
+    .wsus__banner_text_2 h1 {
+        font-size: 55px;
+    }
+
+    .wsus__trending_theme_item_text {
+        width: 68%;
+    }
+
+    .wsus__trending_theme_item {
+        padding: 20px;
+    }
+
+    .wsus__trending_theme_single_text .title {
+        font-size: 30px;
+    }
+
+    .wsus__trending_theme_single_text p {
+        font-size: 20px;
+    }
+
+    .wsus__trending_theme_slider_area {
+        padding: 0px 30px 30px 30px;
+        margin-bottom: 25px;
+    }
+
+    .wsus__download_2_img {
+        width: 280px;
+        height: 270px;
+    }
+
+    .wsus__download_2_text h2,
+    .wsus__download_2_text h2 span {
+        font-size: 30px;
+    }
+
+    .wsus__download_2_text p {
+        margin-bottom: 35px;
+    }
+
+    .wsus__go_offer p {
+        font-size: 30px;
+        max-width: 100%;
+    }
+
+    .wsus__go_offer p span {
+        font-size: 35px;
+    }
+
+    .wsus__go_offer a {
+        position: static;
+        margin-top: 20px;
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+    }
+
+    .wsus__subscribe_2_text {
+        width: 100%;
+    }
+
+    .wsus__subscribe_2 form {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .wsts__blog_2_text a,
+    .wsus__blog_1_text a {
+        font-size: 18px;
+    }
+
+    .wsus__template_item h4 {
+        font-size: 18px;
+    }
+
+    .wsus__customer_logo {
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+    .wsus__trending_theme_single_img {
+        height: 300px;
+    }
+
+    .wsus__subscribe_2_text h2 {
+        font-size: 35px;
+    }
+
+    /*===============================
+        HOME PAHE 2 END
+    ===============================*/
 
 
+    /*===============================
+        HOME PAHE 3 start
+    ===============================*/
+    .wsus__banner_3 {
+        margin-top: 60px !important;
+    }
 
+    .wsus__banner_3 .wsus__banner_img {
+        height: auto;
+    }
+
+    .wsus__megapack_text a {
+        position: unset;
+        margin-top: 20px;
+    }
+
+    .wsus__megapack_text p,
+    .wsus__megapack_text p span {
+        max-width: 100%;
+    }
+
+    .wsus__megapack_card {
+        padding: 25px 25px 20px 25px;
+    }
+
+    .wsus__download_img_3 {
+        width: auto;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .wsus__subscribe_3_bg {
+        padding: 50px !important;
+    }
+
+    .wsus__banner_text_3 form {
+        width: 85%;
+    }
+
+    .home_3 .wsus__download_text ul li a {
+        width: 145px;
+        height: 50px;
+    }
+
+    .wsus__download_text p {
+        margin-bottom: 40px;
+    }
+
+    .home_3 .wsus__subscribe {
+        padding: 0px !important;
+    }
+
+    /*===============================
+        HOME PAHE 3 END
+    ===============================*/
 }
-
 
 
 @media (min-width: 576px) and (max-width: 767.99px) {
@@ -1398,7 +1587,7 @@
     }
 
     .wsus__banner_img {
-        width: 350px;
+        width: 350px !important;
         height: auto;
         margin: 0 auto;
         margin-top: 35px;
@@ -1596,7 +1785,6 @@
     ===============================*/
 
 
-
     /*===============================
         ABOUT PAGE START
     ===============================*/
@@ -1743,7 +1931,6 @@
     ===============================*/
 
 
-
     /*===============================
         CART VIEW START
     ===============================*/
@@ -1838,7 +2025,6 @@
     .wsus__payment_done_text h3 {
         font-size: 30px;
     }
-
 
     /*===============================
         PRODUCT DETAILS START
@@ -1973,21 +2159,180 @@
         font-size: 25px;
     }
 
-
-
     /*===============================
         PROFILE END
     ===============================*/
 
 
+    /*===============================
+        HOME PAHE 2 START
+    ===============================*/
+    .wsus__banner_2 {
+        margin-top: 100px;
+        padding: 65px 0px 80px 0px;
+    }
+
+    .wsus__banner_text_2 h1 {
+        font-size: 35px;
+    }
+
+    .wsus__trending_theme_item_text {
+        width: 68%;
+    }
+
+    .wsus__trending_theme_item {
+        padding: 20px;
+    }
+
+    .wsus__trending_theme_single_text .title {
+        font-size: 30px;
+    }
+
+    .wsus__trending_theme_single_text p {
+        font-size: 20px;
+    }
+
+    .wsus__trending_theme_slider_area {
+        padding: 0px 30px 30px 30px;
+        margin-bottom: 25px;
+    }
+
+    .wsus__download_2_img {
+        width: 300px;
+        height: 285px;
+    }
+
+    .wsus__download_2_text h2,
+    .wsus__download_2_text h2 span {
+        font-size: 35px;
+    }
+
+    .wsus__download_2_text {
+        margin-top: 25px;
+    }
+
+    .wsus__go_offer {
+        padding: 30px;
+        bottom: -77px;
+    }
+
+    .wsus__go_offer p {
+        font-size: 30px;
+        max-width: 100%;
+    }
+
+    .wsus__go_offer p span {
+        font-size: 35px;
+    }
+
+    .wsus__go_offer a {
+        position: static;
+        margin-top: 20px;
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+    }
+
+    .wsus__subscribe_2 {
+        padding: 35px;
+    }
+
+    .wsus__subscribe_2_text {
+        width: 100%;
+    }
+
+    .wsus__subscribe_2_text h2 {
+        font-size: 30px;
+    }
+
+    .wsus__subscribe_2 form {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .wsus__subscribe_2 form button {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+
+    .wsus__subscribe_2 form input {
+        padding: 13px 20px;
+    }
+
+    .wsts__blog_2_text a,
+    .wsus__blog_1_text a {
+        font-size: 18px;
+    }
+
+    .wsus__template_item h4 {
+        font-size: 18px;
+    }
+
+    .wsus__trending_theme_single {
+        padding: 20px;
+    }
+
+    .wsus__customer_logo {
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+    /*===============================
+        HOME PAHE 2 END
+    ===============================*/
 
 
+    /*===============================
+        HOME PAHE 3 start
+    ===============================*/
+    .wsus__banner_3 {
+        margin-top: 60px !important;
+    }
 
+    .wsus__banner_text_3 h1 {
+        font-size: 45px;
+    }
 
+    .wsus__banner_3 .wsus__banner_img {
+        height: auto;
+    }
 
+    .wsus__new_product_area a {
+        position: unset;
+        margin-top: 20px;
+    }
 
+    .wsus__megapack_text a {
+        position: unset;
+        margin-top: 20px;
+    }
+
+    .wsus__megapack_text p,
+    .wsus__megapack_text p span {
+        font-size: 30px;
+        max-width: 100%;
+    }
+
+    .wsus__megapack_card {
+        margin-bottom: 25px;
+    }
+
+    .wsus__download_img_3 {
+        width: auto;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .wsus__subscribe_3_bg {
+        padding: 30px !important;
+    }
+
+    /*===============================
+        HOME PAHE 3 END
+    ===============================*/
 }
-
 
 
 @media (max-width: 575.99px) {
@@ -2090,7 +2435,7 @@
     }
 
     .wsus__banner_img {
-        width: auto;
+        width: 300px !important;
         height: auto;
         margin-left: 0;
         margin-top: 35px;
@@ -2263,6 +2608,7 @@
     .wsus__footer_content h4,
     .wsus__footer_counter h4 {
         margin-bottom: 30px;
+        font-size: 20px;
     }
 
     .wsus__footer_content {
@@ -2604,7 +2950,6 @@
     ===============================*/
 
 
-
     /*===============================
         EMPTY CART END
     ===============================*/
@@ -2804,19 +3149,209 @@
         font-size: 20px;
     }
 
-
-
-
-
-
-
     /*===============================
         PROFILE END
     ===============================*/
 
 
+    /*===============================
+        HOME PAHE 2 START
+    ===============================*/
+    .wsus__banner_2 {
+        margin-top: 100px;
+        padding: 65px 0px 80px 0px;
+    }
+
+    .wsus__banner_text_2 h1 {
+        font-size: 30px;
+    }
+
+    .wsus__banner_counter_2 li {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        border: none;
+        margin-top: 15px;
+    }
+
+    .wsus__trending_theme_item_text {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .wsus__trending_theme_item_text ul {
+        margin-top: 5px;
+    }
+
+    .wsus__trending_theme_item {
+        padding: 20px;
+    }
+
+    .wsus__trending_theme_single_text .title {
+        font-size: 20px;
+    }
+
+    .wsus__trending_theme_single_text p {
+        font-size: 18px;
+    }
+
+    .wsus__trending_theme_slider_area {
+        padding: 0px 30px 30px 30px;
+        margin-bottom: 25px;
+    }
+
+    .wsus__download_2_img {
+        width: 300px;
+        height: 285px;
+    }
+
+    .wsus__download_2_text h2,
+    .wsus__download_2_text h2 span {
+        font-size: 25px;
+    }
+
+    .wsus__download_2_text {
+        margin-top: 25px;
+    }
+
+    .wsus__download_2_text ul li a {
+        margin-right: 10px;
+        width: 135px;
+    }
+
+    .wsus__go_offer {
+        padding: 20px;
+    }
+
+    .wsus__go_offer p {
+        font-size: 20px;
+        max-width: 100%;
+    }
+
+    .wsus__go_offer p span {
+        font-size: 22px;
+    }
+
+    .wsus__go_offer a {
+        position: static;
+        margin-top: 20px;
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+    }
+
+    .wsus__subscribe_2 {
+        padding: 20px;
+    }
+
+    .wsus__subscribe_2_text {
+        width: 100%;
+    }
+
+    .wsus__subscribe_2_text h2 {
+        font-size: 25px;
+    }
+
+    .wsus__subscribe_2 form {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .wsus__subscribe_2 form button {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+
+    .wsus__subscribe_2 form input {
+        padding: 13px 20px;
+    }
+
+    .wsts__blog_2_text a,
+    .wsus__blog_1_text a {
+        font-size: 18px;
+    }
+
+    .wsus__template_item {
+        padding: 25px;
+    }
+
+    .wsus__template_item h4 {
+        font-size: 18px;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .wsus__trending_theme_single {
+        padding: 20px;
+    }
+
+    .wsus__customer_logo {
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+    /*===============================
+        HOME PAHE 2 END
+    ===============================*/
 
 
+    /*===============================
+        HOME PAHE 3 start
+    ===============================*/
+    .wsus__banner_3 {
+        margin-top: 60px !important;
+    }
 
+    .wsus__banner_text_3 .wsus__banner_counter li {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        border: none;
+        margin-top: 15px;
+    }
+
+    .wsus__banner_3 .wsus__banner_img {
+        height: auto;
+    }
+
+    .wsus__new_product_area a {
+        position: unset;
+        margin-top: 20px;
+    }
+
+    .wsus__megapack_text a {
+        position: unset;
+        margin-top: 20px;
+    }
+
+    .wsus__megapack_text p,
+    .wsus__megapack_text p span {
+        font-size: 30px;
+        max-width: 100%;
+    }
+
+    .wsus__megapack_card {
+        margin-bottom: 25px;
+    }
+
+    .wsus__download_img_3 {
+        width: auto;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .wsus__subscribe_3_bg {
+        padding: 15px !important;
+    }
+
+    /*===============================
+        HOME PAHE 3 END
+    ===============================*/
 
 }
