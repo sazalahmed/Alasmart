@@ -1092,6 +1092,7 @@ button {
     font-size: 18px;
     color: var(--colorWhite);
     text-transform: capitalize;
+    text-align: center;
 }
 
 /* counter end */
@@ -1277,6 +1278,10 @@ button {
     font-weight: 600;
     font-size: 20px;
     margin-top: 30px;
+    text-align: center;
+}
+
+.wsus__why_choose_item p {
     text-align: center;
 }
 
@@ -1641,7 +1646,7 @@ footer {
 }
 
 .wsus__footer_link .footer_counter li:last-child {
-    margin-right: 0;
+    margin: 0;
 }
 
 .wsus__footer_link .footer_counter li p {
@@ -1711,6 +1716,7 @@ footer {
     line-height: 35px;
     background: var(--colorWhite);
     border-radius: 50%;
+    text-align: center;
 }
 
 .wsus__scroll_btn:hover {
@@ -1942,7 +1948,7 @@ HOME PAGE END
     margin-bottom: 63px;
 }
 
-.wsus__single_team_text:hover ul {
+.wsus__single_team:hover ul {
     right: 20px;
     opacity: 1;
 }
@@ -2931,10 +2937,12 @@ HOME PAGE END
     font-size: 30px;
     font-weight: 700;
     color: var(--colorBlack);
+    text-align: center;
 }
 
 .wsus__sidebar_pro_info .follow li p {
     font-size: 20px;
+    text-align: center;
 }
 
 .wsus__sidebar_author_text {
@@ -4000,7 +4008,7 @@ HOME PAGE END
 
 .wsus__blog_tags_and_share .tags li:last-child a,
 .wsus__blog_tags_and_share .share li:last-child a {
-    margin-right: 0;
+    margin: 0;
 }
 
 .wsus__blog_details_area .slick-dots {
@@ -5472,10 +5480,12 @@ HOME PAGE END
     font-size: 20px;
     margin-top: 30px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .wsus__template_item p {
     margin-bottom: 40px;
+    text-align: center;
 }
 
 .wsus__template_item a {
