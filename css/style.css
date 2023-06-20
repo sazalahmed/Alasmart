@@ -626,6 +626,7 @@ button {
 
 .navbar-toggler.show .close_icon {
     display: block;
+    text-align: center;
 }
 
 .main_menu .navbar-toggler {
@@ -2323,6 +2324,7 @@ HOME PAGE END
     -moz-transition: all linear .2s;
     -ms-transition: all linear .2s;
     -o-transition: all linear .2s;
+    text-align: center;
 }
 
 .wsus__product_details_text .nav .nav-item button:hover {
@@ -3490,7 +3492,6 @@ HOME PAGE END
     text-transform: capitalize;
 }
 
-
 .wsus__checkout_text .wsus__pro_det_note {
     margin: 0px 30px;
     border-radius: 5px;
@@ -4146,7 +4147,7 @@ HOME PAGE END
 }
 
 .wsus__faq_text .accordion-button {
-    padding: 20px 25px;
+    padding: 20px 55px 20px 25px;
     font-weight: 500;
     font-size: 18px;
     color: var(--colorBlack);
@@ -4163,6 +4164,9 @@ HOME PAGE END
 
 .wsus__faq_text .accordion-button::after {
     background-image: url(../images/accordian_plus.png);
+    position: absolute;
+    top: 22px;
+    right: 25px;
 }
 
 .wsus__faq_text .accordion-button:not(.collapsed)::after {

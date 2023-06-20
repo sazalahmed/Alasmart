@@ -7,7 +7,7 @@
     direction: ltr;
 }
 
-/* hpme page start */
+/* home page start */
 .wsus__topbar_countdown .simply-section {
     margin-left: 0;
     margin-right: 5px;
@@ -245,8 +245,7 @@
     margin-left: 10px;
 }
 
-/* hpme page end */
-
+/* home page end */
 
 /* abput page start */
 .wsus__breadcrumb_text ul li a {
@@ -301,7 +300,6 @@
 }
 
 /* abput page end */
-
 
 /* blog details start */
 .wsus__blog_details_header li {
@@ -400,7 +398,6 @@
 }
 
 /* blog details end */
-
 .wsus__blog_3_text .categori {
     right: auto;
     left: 12px;
@@ -458,8 +455,8 @@
 }
 
 .wsus__faq_text .accordion-button::after {
-    position: absolute;
-    left: 30px;
+    right: auto;
+    left: 25px;
 }
 
 /* home page 2 start */
@@ -529,7 +526,6 @@
 
 /* home page 2 end */
 
-
 /* home page 3 start */
 .wsus__banner_3 .wsus__banner_img {
     margin-left: auto;
@@ -571,7 +567,6 @@
 
 .wsus__pro_description ul li,
 .wsus__pro_description ol li {
-    /* margin-left: 0; */
     margin-right: 30px;
 }
 
@@ -730,8 +725,170 @@
     text-align: right;
 }
 
+.nice-select .current {
+    display: block;
+}
 
+.wsus__footer_link .footer_counter li:last-child h3::after {
+    margin-left: auto;
+    right: auto;
+    left: -18px;
+    margin-right: 5px;
+}
 
+.wsus__faq_text .accordion-button {
+    text-align: right;
+    padding: 20px 25px 20px 55px;
+}
 
+.wsus__product_details_text .nav .nav-item button {
+    margin-right: 0;
+    margin-left: 20px;
+}
 
-/*  */
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+    .wsus__banner_img {
+        margin-right: 50px;
+    }
+
+    .wsus__why_choose_item::after {
+        left: -137px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+    .wsus__banner_img {
+        margin-right: auto;
+    }
+
+    .wsus__why_choose_item::after {
+        left: -82px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+
+    .main_menu .navbar-toggler {
+        margin-right: 0;
+        margin-left: 10px;
+    }
+
+    .main_menu .navbar-brand {
+        margin-left: 0;
+        margin-right: 13px;
+    }
+
+    .wsus__download_img {
+        margin-left: auto;
+    }
+
+    .main_menu .wsus__droap_menu {
+        right: auto;
+    }
+
+    .wsus__profile_header_text .header_button li {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+
+    .main_menu .navbar-brand {
+        margin-left: 0;
+        margin-right: 13px;
+    }
+
+    .main_menu .navbar-toggler {
+        margin-right: 0;
+        margin-left: 13px;
+    }
+
+    .wsus__banner_img {
+        margin-right: 0;
+    }
+
+    .wsus__scroll_btn {
+        left: 20px;
+    }
+
+    .wsus__scroll_btn p {
+        bottom: 15px;
+    }
+
+    .wsus__banner_text form input {
+        border-left: 1px solid #E7E7E7;
+    }
+
+    .main_menu .wsus__droap_menu {
+        right: auto;
+    }
+
+    .wsus__banner_counter_2 li {
+        padding-left: 20px;
+        margin-left: 20px;
+    }
+
+    .wsus__profile_header_text .header_button li {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 575.99px) {
+
+    .main_menu .navbar-brand {
+        margin-left: 0;
+        margin-right: 13px;
+    }
+
+    .main_menu .navbar-toggler {
+        margin-right: 0;
+        margin-left: 13px;
+    }
+
+    .wsus__banner_img {
+        margin-right: 0;
+    }
+
+    .wsus__scroll_btn {
+        left: 20px;
+    }
+
+    .wsus__download_text ul li a {
+        margin-left: 10px;
+    }
+
+    .wsus__scroll_btn p {
+        bottom: 15px;
+    }
+
+    .wsus__banner_text form input {
+        border-left: 1px solid #E7E7E7;
+    }
+
+    .main_menu .wsus__droap_menu {
+        right: auto;
+    }
+
+    .wsus__about_text_img .img {
+        margin-left: 10px;
+    }
+
+    .wsus__about_text_img .text {
+        margin-left: 25px;
+    }
+
+    .wsus__download_2_text ul li a {
+        margin-left: 10px;
+    }
+
+    .wsus__profile_header_text .header_button li {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+
+    .profile_sedebar_social ul li a {
+        margin-left: 10px;
+    }
+}
